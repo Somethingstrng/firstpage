@@ -84,3 +84,76 @@ button{
     color: #F7F7F7;
     margin-bottom: 50px;
 }
+.contflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footercont{
+    max-width: 1210px;
+    margin: 0 auto;
+}
+.restapp2{
+    background-image: url("../img/Rectangle\ 47.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 147px 0 131px;
+}
+.restapp_info2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #F7F7F7;
+    margin-bottom: 50px;
+}
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 142px;
+}
+.mobhead{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+.mobtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 561px;
+    margin: 17px 0;
+}
+.mobtext{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 27px 0;
+    max-width: 467px;
+}
