@@ -8,6 +8,7 @@
 .headcont{
     margin: 0 auto;
     max-width: 1440px;
+    margin-left: 90px;
 }
 .nav-a{
     text-decoration: none;
@@ -216,3 +217,18 @@ button{
     color: #737373;
     margin: 27px 0;
     max-width: 400px;
+    /* flex container
+    1. justify-content: ; - выравнивание по горизонтали, распределение пространства между элементами
+    2. flex-direction: ; - направление оси (куда?)
+    3. align-items: ; - выравнивание по вертикальной (перпендикулярной) оси
+    4. flex-wrap: ; - как будут вести себя элементы, если не хватает места просмотра
+    5. align-content: ; - распределение пространства между элементами
+
+    flex item
+    1. flex-grow: ; коэфициент увеличения
+    2. flex-shrink: ; коэф уменьшения
+    3. flex-basis: ; - базовый размер элемента(похож на width)
+    0 content
+    1 width
+    2 flex-basis
+    3 max-width */
