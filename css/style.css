@@ -37,15 +37,16 @@ button{
     height: 68px;
     width: 236px;
 }
-.button_style1{
+.button_style1, .button_style3{
     background-color: #FA4A0C;
     border: none;
     margin-right:  35px;
 }
-.button_style2{
+.button_style2, .button_style4{
     background: none;
     border: 1px solid white;
 }
+
 .restapp{
     background-image: url("/assets/img/48.png");
     background-repeat: no-repeat;
@@ -220,11 +221,147 @@ button{
 }
 @media screen and (max-width:414px){
     .restapp{
-        display: none;
-        color: white;
+        background-image: none;
+        padding: 50px;
+    }
+    .contflex{
+        padding: 17px 0;
+    }
+    .headcont{
+        margin-left: 25px;
+    }
+    .contflex img{
+        width: 104px;
+        height: 51,37px;
+    }
+    .contflex>nav{
+        display: none; /*не знаю, как сделать открывашку с отдельной кнопкой*/        
+    }
+    .restapp_info, .restapp_about{
+        color: #737373;
+    }
+    .restapp_info{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        left: 40.27%;
+        right: 40.27%;
+        top: 0%;
+        bottom: 91.49%;
+    }
+    .restapp_title{
+        font-size: 36px;
+        line-height: 42.5px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+    .restapp_title2{
+        font-size: 36px;
+        line-height: 42.5px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+    .restapp_about{
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+    }
+    .head{
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-top: 0px;
+    }
+    .buttoncont{
+    }
+    .mobile{
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
-        padding: 80px 0 178px;
-        }
+    }
+    .order1{
+        order: 2;
+    }
+    .order2{
+        order: 1;
+    }
+    main{
+        background-color: 
+        #FAFAFA;
+    }
+    .button_style1{
+        margin-right:  0px;
+    }
+    .button_style2{
+        margin-top: 20px;
+        color: #FA4A0C;
+        border: 1px solid #FA4A0C;
+    }
+    .mobile2{
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .restapp2{
+        background-color: #252B42;
+        background-image: none;
+        padding: 0px;
+        height: 564px;
+        padding: 50px 24px 0;
+        margin-top: -100px;
+    }
+    .buttoncont2{
+        display: flex;
+        flex-direction: row;
+    }
+    .button_style4{
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+    .button_style3{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+    .restapp_title2{
+        margin-top: 70px;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    .restapp_info2{
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #BDBDBD;
+    }
+    .pfooter{
+        display: none;
+    }
+    .imgfooter{
+        di
+    }
+    .footerflex{
+        padding: 0px 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
     /* flex container
     1. justify-content: ; - выравнивание по горизонтали, распределение пространства между элементами
